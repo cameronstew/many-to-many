@@ -16,7 +16,7 @@
      </p>
 
       <p>
-        <!-- f.collection_select(ALL COMPANIES) -->
+        <%= f.collection_select :company_id, Company.order(:name), :id, :name, {}, {class: "form-control"} %>
      </p>
 
 <%= f.submit %>
