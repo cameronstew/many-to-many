@@ -35,3 +35,4 @@ No need to create migrations or alter the schema.
 -  ProductReview MUST have  title, description, product_id, user_id and a rating.
 
 -  CompanyReview MUST have title, description, company_id,  user_id and   rating.
+# many-to-many
